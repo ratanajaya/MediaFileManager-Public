@@ -1,0 +1,66 @@
+@import "_assets/styles/_variables.module.scss";
+
+.ant-collapse> .ant-collapse-item> .ant-collapse-header{
+  padding: 0px;
+}
+
+.ant-collapse-borderless >.ant-collapse-item>.ant-collapse-content>.ant-collapse-content-box{
+  padding: 0px 0px 4px 24px;
+}
+
+.editPanel{
+  background-color: $bg-l2;
+}
+
+.ant-modal-content{
+  background-color: $bg-l2!important;
+}
+
+.editPanel>.ant-collapse-content>.ant-collapse-content-box{
+  background-color: $bg-l2!important;
+  padding: 0px!important;
+}
+
+.editPanel>.ant-collapse-header{
+  background-color: $bg-l2!important;
+}
+
+.ant-layout > .ant-layout-footer{
+  background-color: $bg-l2;
+}
+
+.ant-form-item{
+  margin-bottom: 8px;
+}
+
+.ant-layout-content{
+  background-color: $bg-l1;
+}
+
+.ant-tree-list{
+  background-color: $bg-l2;
+}
+
+.ant-drawer .ant-drawer-body{
+  padding: 24px 0px;
+}
+
+.ant-carousel .slick-dots-top{
+  top: 0px;
+}
+
+.ant-carousel .slick-dots li button{
+  background-color: $text-main;
+}
+
+.ant-carousel .slick-dots li.slick-active button{
+  background-color: $text-main;
+}
+
+.ant-modal-confirm .ant-modal-confirm-body .ant-modal-confirm-title{
+  color: $text-main;
+}
+
+.ant-modal-confirm .ant-modal-confirm-body .ant-modal-confirm-content{
+  color: $text-main;
+}

@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+span{
+  font-weight: 400;
+}
+
+.label-col{
+  text-align: right;
+}
+
+.pagination{
+  --bs-pagination-bg: #6c757d;
+}
+
+.overlay-button{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  top: 0px;
+  cursor: pointer;
+}
+
+.center-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 70px solid transparent;
+  border-bottom: 70px solid transparent;
+  border-left: 70px solid rgba(0, 0, 0, 0.3);
+}
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 70px solid transparent;
+  border-bottom: 70px solid transparent;
+  border-right: 70px solid rgba(0, 0, 0, 0.3);
+}
